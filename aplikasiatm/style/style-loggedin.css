@@ -1,0 +1,155 @@
+body{
+    background: url('../gambar/atmblur.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    /* margin: 100px auto; */
+    margin-top: 5rem;
+    background: transparent;
+    width: 1000px;
+    height: 600px;
+}
+.atm{
+    height: 80%;
+    border: 2px solid black;
+}
+.tombol, .badan{
+    height: 100%;
+}
+.tombol{
+    background-color: silver;
+    padding-top: 100px;
+}
+.badan{
+    background-color: blue;
+}
+.tombol a{
+    display: block;
+    margin-top: 30px;
+}
+.tombol a button:hover{
+    cursor: pointer;
+}
+.tombol a button{
+    width: 100%;
+    height: 50px;
+}
+.tombolbawah{
+    text-align: right;
+}
+.cancel button{
+    width: 120px;
+    height: 50px;
+}
+.cancel button:hover{
+    cursor: pointer;
+}
+.cancel button img{
+    width: 25px;
+    height: 25px;
+}
+.clear{
+    width: 120px;
+    height: 50px;
+}
+.clear:hover{
+    cursor: pointer;
+}
+.clear img{
+    width: 30px;
+    height: 25px;
+}
+.judul{
+    text-align: center;
+}
+.judul h3{
+    color: gold;
+    border-bottom: 2px solid gold;
+    padding: 10px;
+}
+.gambarpin{
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+}
+.inputpin{
+    width: 100%;
+    height: 50px;
+    border: none;
+    background: none;
+    color: gold;
+    font-size: 100px;
+    margin-top: 20px;
+}
+.inputpin:focus{
+    font-size: 100px;
+    border: none;
+    outline: none;
+}
+.menukanan{
+    text-align: right;
+}
+.menukiri{
+    text-align: left;
+}
+h3,h4,h5,h6{
+    color: gold;
+}
+.footer{
+    text-align: center;
+    color: gold;
+}
+
+.input{
+    width: 50%;
+    height: 70px;
+    border: none;
+    background: none;
+    color: gold;
+    font-size: 70px;
+    /* margin-top: 20px; */
+}
+.input:focus{
+    font-size: 70px;
+    border: none;
+    outline: none;
+    
+}
+.inputrektransfer{
+    width: 70%;
+    height: 70px;
+    border: none;
+    background: none;
+    color: gold;
+    font-size: 70px;
+    /* margin-top: 20px; */
+}
+.inputrektransfer:focus{
+    font-size: 70px;
+    border: none;
+    outline: none;
+    
+}
+
+.inputkodeperusahaan{
+    width: 50%;
+    height: 70px;
+    border: none;
+    background: none;
+    color: gold;
+    font-size: 70px;
+    /* margin-top: 20px; */
+}
+.inputkodeperusahaan:focus{
+    font-size: 70px;
+    border: none;
+    outline: none;
+    
+}
+
+table{
+    width: 100%;
+    max-width: 100%;
+}
+

@@ -1,0 +1,36 @@
+body{
+    background-color: cornflowerblue
+}
+h1{
+    margin: 20px auto;
+    color: white;
+}
+.pilihan{
+    border-radius: 20px;
+    display: block;
+    text-align: center;
+}
+.pilihan p{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.pilihan:hover{
+    background-color: blue;
+    transition-duration: 2s;
+    text-decoration: none;
+}
+.atmicon{
+    width: 90%;
+    height: auto;
+}
+.cardicon{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+.inputrek{
+    width: 90%;
+    margin-top: 5px;
+    margin-left: 10px;
+}
