@@ -16,7 +16,7 @@
         $jumlah_uang_nasabah = $data['saldo'];
     }
 
-    if ((float)$jumlah_uang_atm < (float)$value || (float)$jumlah_uang_nasabah < (float)$value || (float)$value%50000!=0 ) {
+    if ((float)$jumlah_uang_atm < (float)$value || (float)$jumlah_uang_nasabah < (float)$value || (float)$value%50000!=0) {
         echo
         "
         <script>

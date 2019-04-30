@@ -56,7 +56,7 @@
                                     </div>
                                     <div class='modal-body'>
                                         <p>Rekening : <br>
-                                        <input type='text' name='rekening' placeholder='masukkan rekening' class='inputrek'>
+                                        <input type='text' name='rekening' placeholder='masukkan rekening' class='inputrek' onkeypress='return justNumber(event)' >
                                         <input type='hidden' name='nomesin' value='$no_mesin'>
                                         </p>
                                     </div>
@@ -89,5 +89,14 @@
     <script src="style/jquery.js"></script>
     <script src="style/popper.js"></script>
     <script src="style/js/bootstrap.min.js"></script>
+    <script>
+        function justNumber(evt) {
+		  var charCode = (evt.which) ? evt.which : event.keyCode
+		   if (charCode > 31 && (charCode < 48 || charCode > 57))
+ 
+		    return false;
+		  return true;
+		}
+    </script>
 </body>
 </html>

@@ -38,6 +38,14 @@
             document.getElementById("input").value = "";
             document.getElementById("input").focus();
         }
-    </script>
+
+		function justNumber(evt) {
+		  var charCode = (evt.which) ? evt.which : event.keyCode
+		   if (charCode > 31 && (charCode < 48 || charCode > 57))
+ 
+		    return false;
+		  return true;
+		}
+	</script>
 </body>
 </html>

@@ -16,7 +16,7 @@
                 <img src="../gambar/inputpin.png" alt="input pin" class="gambarpin">
             </div>
             <div class="col-6 menukanan">
-                <input type="password" name="pin" class="inputpin" required autofocus form="formpin" id="input">
+                <input type="password" name="pin" class="inputpin" onkeypress="return justNumber(event)" required autofocus form="formpin" id="input">
                 <br>
                 <h3>BENAR ----></h3>
                 <br>

@@ -15,7 +15,7 @@
             <div class="col-12 text-center">
                 <h3>MASUKKAN JUMLAH UANG :</h3>
                 <h5>(Hanya Bisa Kelipatan 50000)</h5>
-                <input type="text" name="value" id="input" required autofocus autocomplete="off" class="input" form="formtarikuang">
+                <input type="text" name="value" id="input" required autofocus autocomplete="off" class="input" onkeypress="return justNumber(event)" form="formtarikuang">
             </div>
         </div>
         <div class="row">

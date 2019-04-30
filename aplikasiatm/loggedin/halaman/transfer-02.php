@@ -17,7 +17,7 @@
         <div class="row">
             <div class="col-12 text-center">
                 <h3>MASUKKAN JUMLAH UANG :</h3>
-                <input type="text" name="value" id="input" required autofocus autocomplete="off" class="input" form="formtransfer02">
+                <input type="text" name="value" id="input" required autofocus autocomplete="off" class="input" onkeypress="return justNumber(event)" form="formtransfer02">
                 <input type="hidden" name="rektujuan" value="<?php echo"$rektujuan";?>" form="formtransfer02">
             </div>
         </div>

@@ -16,7 +16,7 @@
         <div class="row">
             <div class="col-12 text-center">
                 <h3>MASUKKAN KODE PERUSAHAAN :</h3>
-                <input type="text" name="kodeperusahaan" id="input" required autofocus autocomplete="off" class="inputkodeperusahaan" form="formpembayaran-02">
+                <input type="text" name="kodeperusahaan" id="input" required autofocus autocomplete="off" class="inputkodeperusahaan" onkeypress="return justNumber(event)" form="formpembayaran-02">
                 <input type="hidden" name="nama" value="<?php echo"$nama";?>" form="formpembayaran-02">
             </div>
         </div>
