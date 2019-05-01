@@ -1,7 +1,8 @@
 <?php
     $pin = $_POST['pin'];
+    $rekening = $_SESSION['nasabah'];
 
-    $sql = "SELECT pin FROM nasabah WHERE pin='$pin';";
+    $sql = "SELECT pin FROM nasabah WHERE pin='$pin' AND rekening = '$rekening';";
     $que= mysqli_query($sambungan, $sql);
     $cek = mysqli_num_rows($que);
 
