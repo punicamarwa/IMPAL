@@ -15,12 +15,12 @@
 ?>
 
     <div class="col-2 tombol">
+        <a href="#"><button>></button></a>
+        <a href="#"><button>></button></a>
+        <a href="#"><button>></button></a>
         <form action="?hal=pembayaran-03" method="POST">
             <input type="hidden" name="nama" value="<?php echo"$nama";?>">
             <input type="hidden" name="kodeperusahaan" value="<?php echo"$kodeperusahaan";?>">
-            <a href="#"><button>></button></a>
-            <a href="#"><button>></button></a>
-            <a href="#"><button>></button></a>
             <a href="#" type="submit"><button>></button></a>
         </form>
     </div>

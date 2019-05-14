@@ -43,7 +43,7 @@
         echo
         "
         <script>
-            window.location='?hal=transaksi-sukses';
+            window.location='?hal=transaksi-gagal';
         </script>
         ";
     }
