@@ -7,6 +7,7 @@
     $nama = $_GET['nama'];
     $namaperusahaan = $_GET['namaperusahaan'];
     $namajenis = $_GET['namajenis'];
+    $namakategori = $_GET['namakategori'];
     $atm = $_SESSION['atm'];
     $rekening = $_SESSION['nasabah'];
     $tgl = date("y-m-d");
@@ -19,7 +20,7 @@
         <a href="#"><button>></button></a>
         <a href="#"><button>></button></a>
         <form action="?hal=pembayaran-03" method="POST">
-            <input type="hidden" name="nama" value="<?php echo"$nama";?>">
+            <input type="hidden" name="nama" value="<?php echo"$namakategori";?>">
             <input type="hidden" name="kodeperusahaan" value="<?php echo"$kodeperusahaan";?>">
             <a href="#" type="submit"><button>></button></a>
         </form>

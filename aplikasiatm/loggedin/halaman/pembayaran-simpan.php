@@ -37,7 +37,7 @@
             echo
             "
             <script>
-                window.location='?hal=pembayaran-konfirmasi&jumlahtagihan=$jumlahtagihan&saldo=$jumlah_uang_nasabah&kodeperusahaan=$kodeperusahaan&notagihan=$notagihan&nama=$nama_nasabah&namaperusahaan=$namaperusahaan&namajenis=$namajenis';
+                window.location='?hal=pembayaran-konfirmasi&jumlahtagihan=$jumlahtagihan&saldo=$jumlah_uang_nasabah&kodeperusahaan=$kodeperusahaan&notagihan=$notagihan&nama=$nama_nasabah&namaperusahaan=$namaperusahaan&namajenis=$namajenis&namakategori=$nama';
             </script>
             ";
     }
